@@ -1,6 +1,8 @@
 import React from "react";
 import Featuredcollectibles from "../featuredcollection/featuredcollectibles";
 import './mainsection.css'
+import FeaturedCollectibles from "../featuredcollection/featuredcollectibles";
+
 export default function Mainsection(){
 
 
@@ -12,7 +14,7 @@ export default function Mainsection(){
             <p>Handpicked collection of premium time keepers for all purposes and age</p>
             <button>Explore Now</button>
             <h2>Featured Collectibles</h2>
-            <Featuredcollectibles/>
+            <FeaturedCollectibles/>
         </section>
         </>
     );

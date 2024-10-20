@@ -5,6 +5,7 @@ import React from 'react';
 import './App.css'
 import Header from './components/header/header';
 import Mainsection from './components/mainsection/mainsection';
+import Sidebar from './components/sidebar/sidebar';
 function App() {
 
 
@@ -12,7 +13,10 @@ function App() {
     <>
     <div className='App'>
       <Header/>
+      <div className="main-content">
       <Mainsection/>
+      <Sidebar/>
+      </div>
     </div>
     </>
 

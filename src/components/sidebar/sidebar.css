@@ -1,0 +1,73 @@
+.sidebar {
+    width: 33.33%;
+    background-color: #1a1a1a;
+    background-image: linear-gradient(to right,#121212,rgb(59, 57, 57));
+    color: white;
+    padding: 3rem;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar-header h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .sidebar-header p {
+    font-size: 1.125rem;
+  }
+  
+  .buy-now {
+    margin-left: auto;
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: #32cd32;
+    border-radius: 0.375rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border-color: #32cd32;
+  }
+  
+  
+  .sidebar img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .indicators span {
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #4a4a4a;
+    border-radius: 50%;
+  }
+  
+  .indicators .active {
+    background-color: #32cd32;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-item i {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
