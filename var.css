@@ -1,0 +1,10 @@
+:root {
+
+    --color-text: black;
+    --color-bg1: #FFF8E4;
+    --color-bg2: #ffffff;
+    --color-primary: #90FF04;
+    
+    --font-roboto: "Roboto", sans-serif;
+    --font-main: "Rasa";
+}
