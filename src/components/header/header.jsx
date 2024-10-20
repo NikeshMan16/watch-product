@@ -15,7 +15,7 @@ export default function Header() {
                 <i className="fas fa-shopping-cart"></i>
                 <div className="user-profile">
                     <img src="https://storage.googleapis.com/a1aa/image/mYmQmfFXMkQtMq1tjqIiSHHKufxpLs5Nri0i93fnvzfV7FhOB.jpg" alt="User profile picture" />
-                    <span>Alex Morgon</span>
+                    <span>Ankit Kafle</span>
                 </div>
             </div>
         </header>
