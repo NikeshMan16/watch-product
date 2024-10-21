@@ -1,7 +1,6 @@
 import React from "react";
 import './sidebar.css';
-
-
+import { FaTint ,FaRunning ,FaAward } from "react-icons/fa";
 export default function Sidebar(){
 
 
@@ -24,17 +23,18 @@ export default function Sidebar(){
                 <span></span>
                 <span></span>
             </div>
+
             <div className="features">
                 <div className="feature-item">
-                    <i className="fas fa-tint"></i>
+                    <FaTint/>
                     <p>WaterProof</p>
                 </div>
                 <div className="feature-item">
-                    <i className="fas fa-running"></i>
+                    <FaRunning />
                     <p>Sports Wear</p>
                 </div>
                 <div className="feature-item">
-                    <i className="fas fa-award"></i>
+                    <FaAward />
                     <p>14+ Awards</p>
                 </div>
 
