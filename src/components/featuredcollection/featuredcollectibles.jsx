@@ -30,7 +30,7 @@ function FeaturedCollectibles() {
           <img src={item.imgSrc} alt={item.alt} />
           <h3>{item.name}</h3>
           <p>{item.price}</p>
-          <button>Buy Now</button>
+          <button>Add to Cart</button>
         </div>
       ))}
     </div>
