@@ -31,7 +31,18 @@
   .nav a:hover {
     color: #32cd32;
   }
-  
+
+  .nav-links{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+
+  ul li a.active {
+    color: #32cd32;
+  }
+
+
   .user-info {
     display: flex;
     align-items: center;

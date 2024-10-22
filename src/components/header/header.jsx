@@ -1,19 +1,20 @@
 import React from "react";
 import  './header.css';
 import { FaShoppingCart } from "react-icons/fa";
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 export default function Header() {
 
 
     return (
         <header className="header">
-            <div className="logo"><Link to='/' style={{textDecoration: 'none'}}>Arturo</Link></div>
+            <div className="logo"><NavLink to='/' style={{textDecoration: 'none'}}>Arturo</NavLink></div>
             <nav className="nav">
-                <Link to ="/products">Products</Link>
-                <Link to ="/about">About</Link>
-                <Link to="/contact">Contact</Link>
-                
+                <ul className="nav-links">
+                <li><NavLink to ="/products">Products</NavLink></li>
+                <li><NavLink to ="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
+                </ul>
                 
                 
                 {/* <a href="#products">Products</a>
@@ -22,9 +23,9 @@ export default function Header() {
             </nav>
             <div className="user-info">
                 
-                <Link to ="/cart">
+                <NavLink to ="/cart">
                 <FaShoppingCart size={20} />
-                </Link>
+                </NavLink>
                 <div className="user-profile">
                     <img src="https://storage.googleapis.com/a1aa/image/mYmQmfFXMkQtMq1tjqIiSHHKufxpLs5Nri0i93fnvzfV7FhOB.jpg" alt="User profile picture" />
                     <span>Ankit Kafle</span>
