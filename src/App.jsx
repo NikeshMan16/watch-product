@@ -10,7 +10,7 @@ import Mainsection from './components/mainsection/mainsection';
 import Sidebar from './components/sidebar/sidebar';
 import Cart from './pages/cart/cart';
 import Products from './pages/product/product';
-import ImageSlider from './components/sidebar/imagslider';
+
 
 function App() {
 
