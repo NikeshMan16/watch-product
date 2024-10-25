@@ -9,7 +9,7 @@ import Header from './components/header/header';
 import Mainsection from './components/mainsection/mainsection';
 import Sidebar from './components/sidebar/sidebar';
 import Cart from './pages/cart/cart';
-import Products from './pages/product/product';
+import Products from './pages/product/product.jsx';
 import Home from './pages/home/home';
 import About from './pages/about/about';
 
