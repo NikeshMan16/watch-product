@@ -5,6 +5,11 @@ import product3 from '../../assets/product3.png';
 import product4 from '../../assets/product4.png';   
 import product5 from '../../assets/product5.png';
 import product6 from '../../assets/product6.png';
+import product7 from '../../assets/product7.webp';
+import product8 from '../../assets/product8.webp';
+import product9 from '../../assets/product9.webp';
+import product10 from '../../assets/product10.webp';    
+
 
 import  "./product.css";
 export default function Products() {
@@ -51,6 +56,30 @@ export default function Products() {
          productImage : product6,
      
          },
+         {
+            name: 'Zoro Mindsweep G',
+            price: 1699.99,
+            productImage: product9,
+            alt: 'Zoro Mindsweep G watch'
+          },
+          {
+            name: 'Romeleu Authentic',
+            price: 1674.99,
+            productImage: product10,
+            alt: 'Romeleu Authentic watch'
+          },
+          {
+            name: 'Sierra Large Dial',
+            price: 1666.99,
+            productImage: product8,
+            alt: 'Sierra Large Dial watch'
+          },
+          {
+            name : 'Hermes God Burst',
+            price : 147.88,
+            productImage: product7,
+            alt: 'Hermes God Burst watch'
+          }
      
      
      

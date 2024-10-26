@@ -5,19 +5,19 @@ function FeaturedCollectibles() {
   const collectibles = [
     {
       name: 'Zoro Mindsweep G',
-      price: '$169',
+      price: '$1699.99',
       imgSrc: 'https://storage.googleapis.com/a1aa/image/BCpQOfUu4wwvEqUcs8FXk5NvWtoBvzhokk5xnNUJefuy9iQnA.jpg',
       alt: 'Zoro Mindsweep G watch'
     },
     {
       name: 'Romeleu Authentic',
-      price: '$167',
+      price: '$1674.99',
       imgSrc: 'https://storage.googleapis.com/a1aa/image/NjA6Rh1ZzcKpFFSehAujJDrrI1uFpzH2YxePaInusQ32eiQnA.jpg',
       alt: 'Romeleu Authentic watch'
     },
     {
       name: 'Sierra Large Dial',
-      price: '$166',
+      price: '$1666.99',
       imgSrc: 'https://storage.googleapis.com/a1aa/image/JVwuenBSo80TQqIzdNJ2rF8GjTq6Le1dfnF4e1GfbZ0fuXE6E.jpg',
       alt: 'Sierra Large Dial watch'
     }
