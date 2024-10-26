@@ -1,5 +1,6 @@
 import React from 'react';
 import './featuredcollectibles.css';
+import { PRODUCTS } from '../../pages/product/product.jsx';
 
 function FeaturedCollectibles() {
   const collectibles = [
@@ -11,7 +12,7 @@ function FeaturedCollectibles() {
     },
     {
       name: 'Romeleu Authentic',
-      price: '$1674.99',
+      price: '$1677.99',
       imgSrc: 'https://storage.googleapis.com/a1aa/image/NjA6Rh1ZzcKpFFSehAujJDrrI1uFpzH2YxePaInusQ32eiQnA.jpg',
       alt: 'Romeleu Authentic watch'
     },
@@ -22,6 +23,9 @@ function FeaturedCollectibles() {
       alt: 'Sierra Large Dial watch'
     }
   ];
+  
+
+
 
   return (
     <div className="collectibles">
